@@ -1,0 +1,21 @@
+/* Tailwind v4 core */
+@import "tailwindcss";
+
+
+/* Theme tokens so we can use bg-brand-500 etc. */
+@theme {
+--color-brand-50: #f5f8ff;
+--color-brand-100: #e8efff;
+--color-brand-200: #cfe0ff;
+--color-brand-300: #a9c6ff;
+--color-brand-400: #7aa2ff;
+--color-brand-500: #4d7cff;
+--color-brand-600: #335ee6;
+--color-brand-700: #2748b3;
+--color-brand-800: #1e388a;
+--color-brand-900: #162b6a;
+}
+
+
+html, body { height: 100%; }
+body { @apply bg-neutral-950 text-white; }
